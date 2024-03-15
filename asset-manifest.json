@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rest-form/static/css/main.cd2e038f.css",
+    "main.js": "/rest-form/static/js/main.a0791f66.js",
+    "index.html": "/rest-form/index.html",
+    "main.cd2e038f.css.map": "/rest-form/static/css/main.cd2e038f.css.map",
+    "main.a0791f66.js.map": "/rest-form/static/js/main.a0791f66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd2e038f.css",
+    "static/js/main.a0791f66.js"
+  ]
+}

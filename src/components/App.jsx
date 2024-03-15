@@ -1,12 +1,18 @@
+import { Component } from 'react';
 import { GlobalStyle } from './GlobalStyle';
 import { Layout } from './Layout';
-import { FirstComponent } from './firstComponent/FirstComponent';
+import PokemonForm from './SearchBar/SearchBar';
 
-export const App = () => {
-  return (
-    <Layout>
-      <FirstComponent title="Hello" />
-      <GlobalStyle />
-    </Layout>
-  );
-};
+export class App extends Component {
+  handleFormSubmint = pokemonName => {
+    console.log(pokemonName);
+  };
+  render() {
+    return (
+      <Layout>
+        <PokemonForm onSubmitProp={this.handleFormSubmint} />
+        <GlobalStyle />
+      </Layout>
+    );
+  }
+}

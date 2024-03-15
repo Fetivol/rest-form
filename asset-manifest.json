@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rest-form/static/css/main.cd2e038f.css",
-    "main.js": "/rest-form/static/js/main.2f1d5c0a.js",
+    "main.js": "/rest-form/static/js/main.a4eec651.js",
     "index.html": "/rest-form/index.html",
     "main.cd2e038f.css.map": "/rest-form/static/css/main.cd2e038f.css.map",
-    "main.2f1d5c0a.js.map": "/rest-form/static/js/main.2f1d5c0a.js.map"
+    "main.a4eec651.js.map": "/rest-form/static/js/main.a4eec651.js.map"
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.2f1d5c0a.js"
+    "static/js/main.a4eec651.js"
   ]
 }

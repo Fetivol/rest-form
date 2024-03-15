@@ -10,7 +10,7 @@ export default class PokemonInfo extends Component {
   };
   async componentDidUpdate(prevProps, PrevState) {
     if (prevProps.pokemonName !== this.props.pokemonName) {
-      this.setState({ pokemon: null, loading: true });
+      this.setState({ pokemon: null, loading: true, error: false });
       try {
         const pokemonInfo = await fetchPokemonInfo(this.props.pokemonName);
         this.setState({ pokemon: pokemonInfo });
